@@ -29,7 +29,9 @@ input{
     margin-bottom: 15px;
     box-sizing: border-box;
 }
+
 input[type="submit"]{
+    margin-bottom: 15px;
     background-color: rgb(127, 165, 162);
     color: white;
     cursor: pointer;
@@ -44,11 +46,12 @@ input[type="submit"]:hover{
 
 .error-message{
     color: red;
-    margin-top: -10%;
+    margin-top: -10px;
     margin-bottom: 10px;
     display: none;
     font-size: 12px;
 }
+
 #show-hide{
     position: relative;
     top: -10px;
@@ -57,8 +60,8 @@ input[type="submit"]:hover{
     cursor: pointer;
     border-bottom: 1px solid transparent;
     transition: all .5s ease;
-
 }
+
 #show-hide:hover{
     border-bottom: 1px solid grey;
     color: grey;
